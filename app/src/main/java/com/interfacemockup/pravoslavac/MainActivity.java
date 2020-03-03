@@ -55,7 +55,7 @@ import java.util.Locale;
 //////////////////  START GESTURES   /////////////////////
 //////////////////  END GESTURES   /////////////////////
 public class MainActivity extends AppCompatActivity  {
-
+    
     private FirebaseAnalytics       mFirebaseAnalytics;
 
     private static final String     TAG = "MainActivity";
@@ -86,6 +86,9 @@ public class MainActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
 
         // Obtain the FirebaseAnalytics instance.
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
